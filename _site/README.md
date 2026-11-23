@@ -2,6 +2,8 @@
 
 Ce dépôt contient une version Jekyll du site IDEES, avec le contenu éditable en Markdown.
 
+Publié sur https://github.com/journees-idees/journees-idees.github.io
+
 ## Mise en ligne sur GitHub Pages
 
     1. Décompresser l'archive.

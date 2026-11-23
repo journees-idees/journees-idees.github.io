@@ -183,3 +183,81 @@ h1, h2, h3, h4 {
   height: auto;
 }
 
+/* Présentation des organisateurs */
+.organizers {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin: 40px 0 60px;
+  text-align: center;
+}
+
+.organizer {
+  width: 220px;
+}
+
+.organizer img {
+  width: 170px;
+  height: 190px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 30, 80, 0.15);
+}
+
+.organizer h3 {
+  color: #123477;
+  margin: 15px 0 3px;
+  font-size: 1.15rem;
+}
+
+.organizer p {
+  color: var(--muted);
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+@media (max-width: 600px) {
+  .organizers {
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+  }
+}
+
+/* Logo des sponsors */
+.sponsor-logo {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin: 30px auto 50px;
+}
+
+.sponsor-logo img {
+  display: block;
+  max-width: 380px;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Logo MIAI présent sur toutes les pages */
+
+
+.footer-sponsor {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.footer-sponsor img {
+  display: block;
+  width: 200px;
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 760px) {
+  .footer-sponsor {
+    justify-content: flex-start;
+  }
+}

@@ -5,14 +5,9 @@ title: Journées IDEES
 
 <!-- <div class="eyebrow">ÉDITION 2026 · ATELIER DE 2 JOURS</div> -->
 
-<!-- 
-![Journées IDEES : IA pour le développement: Entreprises et EnseignementS]({{ '/assets/images/idees-banniere-v2.png' | relative_url }}){: .hero-banner } -->
-<!-- <img
-  src="{{ '/assets/images/idees-banniere-v2.png' | relative_url }}"
-  alt="Journées IDEES – IA pour le développement : Entreprises et EnseignementS"
-  class="hero-banner"> -->
+
 <img
-  src="{{ '/assets/images/idees-banniere-v2.png' | relative_url }}"
+  src="{{ '/assets/images/idees-banniere.png' | relative_url }}"
   alt="Journées IDEES – IA pour le Développement, Entreprises et EnseignementS"
   class="hero-banner">
 
