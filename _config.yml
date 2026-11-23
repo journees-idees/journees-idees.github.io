@@ -1,0 +1,19 @@
+title: "Journées IDES 2026, 17-18 décembre 2026, Grenoble"
+description: "IA pour le Développement: Entreprises et EnseignementS"
+url: "https://journees-idees.github.io"
+baseurl: ""
+markdown: kramdown
+theme: null
+plugins: []
+permalink: pretty
+collections:
+  pages:
+    output: true
+    permalink: /:name/
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: page
+

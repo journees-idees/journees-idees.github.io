@@ -1,0 +1,10 @@
+<header class="site-header">
+  <div class="nav-wrap">
+    <a class="brand" href="{{ '/' | relative_url }}"><span class="brand-mark">I</span><span>Journées <strong>IDEES</strong></span></a>
+    <nav aria-label="Navigation principale">
+      {% for item in site.data.navigation %}
+        <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+      {% endfor %}
+    </nav>
+  </div>
+</header>
